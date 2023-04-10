@@ -1,0 +1,21 @@
+body {
+    color: rgb(22, 87, 87);
+    font-size: 25px;
+    text-align: center;
+}
+.content{
+    background-image: url("./cac_vi_sao_JARR.jpg");
+    background-size: cover;
+    height: 200px;
+    border: 10px dotted #333;
+    background-clip: content-box;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: top -20px right 50px;
+    height: 400px;
+    background-attachment: fixed;
+}
+.text{
+    color: rgb(10, 6, 2);
+}
+

@@ -1,0 +1,26 @@
+:root{
+    --color-bg: #333;
+    --color-text: #8c8888;
+}
+
+*{
+    margin: 0;
+    background-color: var(--color-bg);
+}
+
+p{
+    color: var(--color-text);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 50px;
+    height: 30px;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+}
