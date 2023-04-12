@@ -1,0 +1,26 @@
+:root{
+    --color-priority: #9794A8;
+    --color-secondary: #051441;
+    --color-icon: #F59C18;
+}
+html{
+    font-size: 18.6px;
+}
+
+*{
+    color: var(--color-priority);
+    box-sizing: border-box;
+}
+
+.container{
+    height: auto;
+    min-height: 100px;
+    min-width: 500px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
