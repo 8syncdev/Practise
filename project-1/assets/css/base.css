@@ -1,26 +1,56 @@
-:root{
+:root {
     --color-priority: #9794A8;
     --color-secondary: #051441;
     --color-icon: #F59C18;
+    --color-fa: #fff;
+    --bg-priority: #f8f8f6;
 }
-html{
+
+html {
     font-size: 18.6px;
 }
 
-*{
+* {
     color: var(--color-priority);
     box-sizing: border-box;
 }
 
-.container{
+body {
+    background-color: var(--color-fa);
+}
+
+
+.container {
     height: auto;
     min-height: 100px;
     min-width: 500px;
-    background-color: antiquewhite;
     width: 80%;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
+
+.icon {
+    background-color: #5873E5;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: var(--bg-priority);
+    box-shadow: 5px 2px 8px 1px #333;
 }
