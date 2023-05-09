@@ -68,7 +68,23 @@ p {
     font-family: "Font Awesome 6 Free";
 }
 
-.inner-wrap-50{
+.inner-wrap-50 {
     width: 50%;
     padding: 0 0.5rem;
+}
+
+.btn-orange {
+    display: inline-block;
+    background: linear-gradient(#F67907, #F4A91E);
+    width: 40%;
+    height: 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 16px 0;
+    text-align: center;
+    color: #fafafa;
+    font-size: 1.3rem;
 }

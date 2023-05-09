@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: #fafafa;
+}
+body{
+    background-color: #333;
+}
+
+html{
+    font-size: 18.6px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+.inner-wrap{
+    width: calc(100% / 3);
+}
+
+header .inner-categories{
+    display: flex;
+    justify-content: center;
+}
+
+header .inner-categories li{
+    padding: 25px 15px;
+}
+header .last{
+    display: flex;
+    justify-content: end;
+}
+/* Sau khi hover vao categories thi element con ma ko co hover thi bi css */
+header .inner-categories:hover :is(:not(:hover)){
+    scale: 0.8;
+    transition: all 1s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+header .inner-categories:hover :is(:hover){
+    scale: 1.1;
+    background-color: antiquewhite;
+    transform: all 0.8s;
+    -webkit-transform: all 0.8s;
+    -moz-transform: all 0.8s;
+    -ms-transform: all 0.8s;
+    -o-transform: all 0.8s;
+}
+header .inner-categories:hover :is(:hover) a{
+    color: #333;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
