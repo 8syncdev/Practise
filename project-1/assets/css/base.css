@@ -6,10 +6,6 @@
     --bg-priority: #f8f8f6;
 }
 
-html {
-    font-size: 18.6px;
-}
-
 * {
     color: var(--color-priority);
     box-sizing: border-box;
@@ -17,6 +13,7 @@ html {
 
 body {
     background-color: var(--color-fa);
+    font-size: 18.6px;
 }
 
 

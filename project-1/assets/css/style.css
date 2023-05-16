@@ -101,8 +101,7 @@ header .inner-wrap-last a:hover {
 
 .sec-1 .container .group-button {
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .sec-1 .container .group-button p {
@@ -345,6 +344,7 @@ header .inner-wrap-last a:hover {
 
 .sec-5 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .sec-5 .intro-item {

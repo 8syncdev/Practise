@@ -1,0 +1,114 @@
+@media screen and (max-width: 1400px) {
+    body {
+        font-size: 18.6px;
+    }
+
+    .sec-1 .container .inner-content .group-button .cta-video {
+        width: 54.41px;
+        height: 54.41px;
+    }
+
+    .sec-1 .inner-content :nth-child(n) {
+        margin-bottom: 2rem;
+    }
+
+    .sec-1 .inner-content .group-button :nth-child(n) {
+        margin-right: 1.5rem;
+    }
+
+    body>main>section.sec-1>div>div.inner-wrap.inner-content>div>a.cta.cta-btn {
+        width: 8rem !important;
+        padding: 0;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    body>main>section.sec-1>div>div.inner-wrap.inner-content>div {
+        width: 75%;
+    }
+}
+
+/* 992 -> 1200px lg */
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 17.6px;
+    }
+}
+
+/* md */
+@media screen and (max-width: 992px) {
+    header .inner-wrap-second {
+        display: none;
+    }
+
+    header .md-btn {
+        width: 4rem;
+    }
+
+    .sec-4 .inner-wrap {
+        width: 100%;
+    }
+
+    .sec-7 .container .inner-wrap {
+        width: 100%;
+    }
+
+    .sec-2 .container .inner-wrap {
+        width: 50%
+    }
+
+    .sec-2 .container .inner-1 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* sm */
+@media screen and (max-width: 768px) {
+    body>main>section.sec-2>div>div.inner-wrap.inner-1 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .sec-3 .container .inner-wrap {
+        width: 100%;
+    }
+
+    .sec-3 .container .inner-1 {
+        margin-bottom: 4rem;
+    }
+
+    .sec-4 .container .inner-wrap:nth-child(1) {
+        margin-bottom: 3rem;
+    }
+
+    .sec-4 .container .inner-wrap:nth-child(2) {
+        scale: 0.9;
+    }
+
+    .sec-5 .container .inner-wrap-50 {
+        width: 100% !important;
+    }
+
+    .sec-6 .container .inner-wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body>main>section.sec-7>div>div.inner-wrap.wrap-2 {
+        scale: 0.8;
+    }
+
+    body>main>section.sec-3>div>div.inner-wrap.inner-1 .inner-child:nth-child(n) {
+        width: 100%;
+    }
+
+    .sec-2 .container .inner-2 {
+        width: 100%;
+    }
+
+    .sec-2 .container .inner-3 {
+        width: 100%;
+    }
+}
