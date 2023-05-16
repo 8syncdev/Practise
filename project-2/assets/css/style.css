@@ -1,1 +1,33 @@
 /* CSS HEADER */
+header .drop-cus{
+    background: var(--color-btn);
+    padding: 0.7rem 0.8rem;
+}
+
+header .header__nav:hover :is(:not(:hover)){
+    scale: 0.9;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+header .header__nav:hover :is(:hover){
+    scale: 1.1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    background-color: antiquewhite;
+}
+
+/* END HEADER */
+
+.sec-1 .inner-title{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.sec-1 .sec-1__border{
+    border: 0.01px solid #ada2a2;
+}

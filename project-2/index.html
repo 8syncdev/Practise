@@ -20,22 +20,33 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-1 d-lg-none d-md-block d-sm-block d-block">
-                    <i class="fa-solid fa-list text-white"></i>
+                <div class="col-2 col-md-1 col-sm-2 d-lg-none d-md-block d-sm-block d-block wow slideInLeft">
+                    <div class="dropdown text-sm-end">
+                        <button class="btn drop-cus" type="button" id="dropdownDropListHeader" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-bars fs-4 text-white"></i>
+                        </button>
+                        <ul class="dropdown-menu header__nav" aria-labelledby="dropdownDropListHeader">
+                            <li><a class="dropdown-item" href="#">About us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact us</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">Prortfolio</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-2 wow slideInLeft">
                     <div class="inner-logo d-flex align-items-center gap-2">
                         <img src="./assets/images/header/logo.png" alt="" class="img-fluid">
                         <p class="text-white">Johnson</p>
                     </div>
                 </div>
 
-                <div class="col-8 d-none d-sm-none d-md-none d-lg-block">
-                    <ul class="d-flex justify-content-end">
+                <div class="col-8 d-none d-sm-none d-md-none d-lg-block wow bounceIn">
+                    <ul class="d-flex justify-content-end header__nav overflow-hidden">
                         <a href="">
                             <li class="px-3 py-4">About us</li>
                         </a>
@@ -51,15 +62,27 @@
                     </ul>
                 </div>
                 
-                <div class="col-9 col-sm-9 col-md-9 col-lg-2">
-                    <div class="inner-btn text-end py-3">
-                        <a href="" class="btn text-white btn-cus">Contact us</a>
+                <div class="col-8 col-sm-8 col-md-9 col-lg-2 wow slideInRight">
+                    <div class="inner-btn text-end py-md-3 py-sm-3 py-3 py-lg-0">
+                        <a href="" class="btn text-white btn-cus fs-5">Contact us</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
+    <main>
+        <section class="sec-1 pt-5">
+            <div class="container">
+                <div class="row sec-1__border px-2">
+                    <div class="col-6 p-5">
+                        <p class="inner-title text-white mb-5">People go crazy for cowboy caviar at potlucks</p>
+                        <a href="" class="btn btn-cus fs-5 text-white">See details</a>
+                    </div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- End Header -->
 
