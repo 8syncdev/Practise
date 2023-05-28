@@ -4,30 +4,98 @@ header .drop-cus{
     padding: 0.7rem 0.8rem;
 }
 
-header .header__nav:hover :is(:not(:hover)){
+header .header__nav:hover li:is(:not(:hover)){
     scale: 0.9;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
 }
-header .header__nav:hover :is(:hover){
+header .header__nav:hover li:is(:hover){
     scale: 1.1;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
     background-color: antiquewhite;
 }
 
 /* END HEADER */
-
+/* CSS SEC-1 */
 .sec-1 .inner-title{
     font-size: 4rem;
     font-weight: 500;
 }
 .sec-1 .sec-1__border{
     border: 0.01px solid #ada2a2;
+}
+.sec-1 .inner-img img{
+    width: 10rem;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+.sec-1 .inner-img{
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 1rem 1rem;
+    border-radius: 0.7rem;
+}
+.sec-1 .inner-img .inner-title{
+    font-size: 1rem;
+    width: 10rem;
+}
+.sec-1 .inner-img .inner-desc{
+    font-size: 0.7rem;
+    width: 10rem;
+}
+.sec-1 .inner-img :nth-child(n){
+    margin-bottom: 0.2rem;
+}
+.sec-1 .bg-food{
+    background-image: url('../images/sec-1/food-2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22rem;
+    aspect-ratio: 9 / 16;
+    position: absolute;
+    top: 0;
+    right: calc(50% - 11rem);
+    z-index: -1;
+}
+
+/* CSS SEC-2 */
+.sec-2 .inner-title{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.sec-2 .img-cus{
+    aspect-ratio: 5 / 3;
+}
+.sec-2 .px-cus{
+    padding: 0 7rem;
+}
+.sec-2 .text-cus{
+    color: #dad5d5;
+}
+
+/* .sec-2 .px-cus :nth-child(n){
+    margin-bottom: 1.5rem;
+} */
+
+
+/* CSS SEC-3 */
+.sec-3 .inner-title {
+    font-size: 4rem;
+}
+
+.sec-3 .img-cus{
+    aspect-ratio: 3 / 2;
+
 }

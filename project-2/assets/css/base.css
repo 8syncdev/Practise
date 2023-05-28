@@ -34,3 +34,12 @@ a:hover{
     padding-top: 0.5rem;
     font-weight: bold;
 }
+
+
+.icon-date::before{
+    content: '\f017';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-solid fa-clock);
+    display: inline-block;
+    margin-right: 0.4rem;
+}

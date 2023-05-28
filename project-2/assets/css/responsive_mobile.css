@@ -4,4 +4,16 @@
         height: 45px;
         font-size: 1rem !important;
     }
+    .sec-1 .column-1 .inner-title{
+        font-size: 1.5rem;
+    }
+    .sec-2 .inner-title{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec-2 .px-cus{
+        padding: 0;
+    }
 }
