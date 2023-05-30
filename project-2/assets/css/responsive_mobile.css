@@ -4,16 +4,28 @@
         height: 45px;
         font-size: 1rem !important;
     }
-    .sec-1 .column-1 .inner-title{
+
+    .sec-1 .column-1 .inner-title {
         font-size: 1.5rem;
     }
-    .sec-2 .inner-title{
+
+    .sec-2 .inner-title {
         font-size: 3rem;
+    }
+
+    .sec-4 button.slick-next {
+        right: 5px;
+        opacity: 0.6;
+    }
+
+    .sec-4 button.slick-prev {
+        left: 5px;
+        opacity: 0.6;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .sec-2 .px-cus{
+    .sec-2 .px-cus {
         padding: 0;
     }
 }

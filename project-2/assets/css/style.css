@@ -1,10 +1,10 @@
 /* CSS HEADER */
-header .drop-cus{
+header .drop-cus {
     background: var(--color-btn);
     padding: 0.7rem 0.8rem;
 }
 
-header .header__nav:hover li:is(:not(:hover)){
+header .header__nav:hover li:is(:not(:hover)) {
     scale: 0.9;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
@@ -12,7 +12,8 @@ header .header__nav:hover li:is(:not(:hover)){
     -ms-transition: all 0.8s;
     -o-transition: all 0.8s;
 }
-header .header__nav:hover li:is(:hover){
+
+header .header__nav:hover li:is(:hover) {
     scale: 1.1;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
@@ -24,14 +25,16 @@ header .header__nav:hover li:is(:hover){
 
 /* END HEADER */
 /* CSS SEC-1 */
-.sec-1 .inner-title{
+.sec-1 .inner-title {
     font-size: 4rem;
     font-weight: 500;
 }
-.sec-1 .sec-1__border{
+
+.sec-1 .sec-1__border {
     border: 0.01px solid #ada2a2;
 }
-.sec-1 .inner-img img{
+
+.sec-1 .inner-img img {
     width: 10rem;
     aspect-ratio: 16 / 9;
     border-radius: 0.7rem;
@@ -40,24 +43,29 @@ header .header__nav:hover li:is(:hover){
     -ms-border-radius: 0.7rem;
     -o-border-radius: 0.7rem;
 }
-.sec-1 .inner-img{
+
+.sec-1 .inner-img {
     background-color: antiquewhite;
     display: inline-block;
     padding: 1rem 1rem;
     border-radius: 0.7rem;
 }
-.sec-1 .inner-img .inner-title{
+
+.sec-1 .inner-img .inner-title {
     font-size: 1rem;
     width: 10rem;
 }
-.sec-1 .inner-img .inner-desc{
+
+.sec-1 .inner-img .inner-desc {
     font-size: 0.7rem;
     width: 10rem;
 }
-.sec-1 .inner-img :nth-child(n){
+
+.sec-1 .inner-img :nth-child(n) {
     margin-bottom: 0.2rem;
 }
-.sec-1 .bg-food{
+
+.sec-1 .bg-food {
     background-image: url('../images/sec-1/food-2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -70,18 +78,20 @@ header .header__nav:hover li:is(:hover){
 }
 
 /* CSS SEC-2 */
-.sec-2 .inner-title{
+.sec-2 .inner-title {
     font-size: 4rem;
     font-weight: 500;
 }
 
-.sec-2 .img-cus{
+.sec-2 .img-cus {
     aspect-ratio: 5 / 3;
 }
-.sec-2 .px-cus{
+
+.sec-2 .px-cus {
     padding: 0 7rem;
 }
-.sec-2 .text-cus{
+
+.sec-2 .text-cus {
     color: #dad5d5;
 }
 
@@ -95,7 +105,110 @@ header .header__nav:hover li:is(:hover){
     font-size: 4rem;
 }
 
-.sec-3 .img-cus{
+.sec-3 .img-cus {
     aspect-ratio: 3 / 2;
 
+}
+
+/* CSS SEC-4 */
+
+.sec-4 .inner-title.text-center {
+    font-size: 4rem;
+}
+
+.sec-4 .slick-next::before {
+    content: '\3e';
+        font-family: "Font Awesome 6 Free";
+        font: var(--fa-solid fa-less-than);
+        display: inline-block;
+        background-color: aliceblue;
+        height: 5rem;
+        width: 5rem;
+        color: black;
+        font-size: 3rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        padding-top: 1rem;
+        text-align: center;
+}
+.sec-4 button.slick-next{
+display: block;
+    height: 5rem;
+    width: 5rem;
+    padding: 0;
+    position: absolute;
+    top: calc(50%);
+    left: -2;
+    z-index: 10;
+
+}
+.sec-4 .slick-prev::before{
+    content: '\3c';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-solid fa-less-than);
+    display: inline-block;
+    background-color: aliceblue;
+    height: 5rem;
+    width: 5rem;
+    color: black;
+    font-size: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 1rem;
+    text-align: center;
+}
+.sec-4 button.slick-prev{
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    padding: 0;
+    position: absolute;
+    top: calc(50%);
+    left: -2;
+    z-index: 10;
+}
+
+/* CSS SEC-5 */
+
+.sec-5 img{
+    aspect-ratio: 2/3;
+    width: 6rem;
+    object-fit: cover;
+    right: 0;
+    top: calc(50% - 5rem);
+}
+.sec-5 .bg-img{
+    height: 20rem;
+    width: 15rem;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.sec-5 .overplay {
+    width: calc(100% - 5rem);
+    height: 10rem;
+    background-color: #460307;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.sec-5 .inner-img{
+    width: 8rem;
+    right: 0;
+}
+.sec-5 .inner-img .inner-intro{
+    position: absolute;
+    top: 0;
+}
+.sec-5 .inner-img .bg-overplay{
+    bottom: 0;
+    font-size: 0.8rem;
+    text-align: center;
+    background: linear-gradient(0, black, rgba(240, 233, 240, 0.05));
 }
