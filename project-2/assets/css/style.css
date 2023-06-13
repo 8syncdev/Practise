@@ -184,9 +184,11 @@ display: block;
     top: calc(50% - 5rem);
 }
 .sec-5 .bg-img{
-    height: 20rem;
-    width: 15rem;
-    background-color: antiquewhite;
+    height: 28rem;
+    width: 20rem;
+    background-image: url('../images/sec-1/food-1.jpg');
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
 }
 .sec-5 .overplay {
@@ -205,10 +207,55 @@ display: block;
 .sec-5 .inner-img .inner-intro{
     position: absolute;
     top: 0;
+    font-size: 0.6rem;
+    background-color: #460307;
+    width: 80%;
 }
 .sec-5 .inner-img .bg-overplay{
     bottom: 0;
     font-size: 0.8rem;
     text-align: center;
     background: linear-gradient(0, black, rgba(240, 233, 240, 0.05));
+}
+.sec-5 .col-second .pr{
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.sec-5 .col-second .inner-title{
+    font-size: 4rem;
+}
+
+/* CSS-SEC-8 */
+.sec-8 .container .inner-wrap .first_row .w-cus{
+    width: 30rem;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #6C757D;
+}
+.sec-8 .container .inner-wrap .first_row .w-cus::placeholder{
+    color: white;
+}
+
+/* CSS-SEC-9 */
+.sec-9 .inner-center{
+    width: 10rem;
+}
+.sec-9 .input-cus{
+    background: none;
+    border: none;
+    border-top: solid 1px #dad5d5;
+    border-bottom: 1px solid #dad5d5;
+    border-left:1px solid #dad5d5;
+}
+.sec-9 .input-cus::placeholder{
+    color: white;
+}
+
+
+footer .wrap-icon {
+    width: 10rem;
+}
+footer .wrap-title {
+    width: 18rem;
 }
