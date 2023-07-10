@@ -1,0 +1,24 @@
+.inner-form{
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.inner-form input{
+    background-color: #F8F8F8;
+    border: none;
+    width: 100%;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+.svg-1{
+    position: absolute;
+    right: 10px;
+    top: calc(65.08px / 2 - 36px / 2);
+}
