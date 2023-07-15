@@ -4,7 +4,7 @@
 
 }
 
-.list-item li:is(:hover) {
+.inner-header .list-item li:is(:hover) {
     scale: 1.1;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
