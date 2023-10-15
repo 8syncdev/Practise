@@ -1,0 +1,70 @@
+/* Làm việc theo min-width  */
+
+/* Container  */
+.container{
+    width: 100%;
+    padding: 0.1rem;
+}
+
+@media screen and (min-width: 576px) {
+    .container{
+        width: 100%;
+        padding: 0.3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Position mặc định là static  */
+/* Relative: có vị trí (không cho phép các khối khác đi vào) */
+.relative {
+    position: relative;
+}
+/* Absolute: không có vị trí  */
+.absolute {
+    position: absolute;
+}
+/* Fixed:không có vị trí, di chuyển theo khung nhìn (viewport) */
+.fixed {
+    position: fixed;
+}
+/* vừa .relative vừa .fixed  */
+.sticky {
+    position: sticky;
+}
+
+.top-0{
+    top: 0;
+}
+
+.left-0{
+    left: 0;
+}
+
+/* Flex  */
+.flex {
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.content-center{
+    justify-content: center;
+}
