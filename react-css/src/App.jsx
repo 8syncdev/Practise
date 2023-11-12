@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <div className="container">
+      <div className="container p-[12rem]">
         <p>Hello</p>
       </div>
     </>
