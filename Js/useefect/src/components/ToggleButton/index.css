@@ -1,0 +1,47 @@
+.ToggleButton {
+    display: flex;
+
+
+
+    & .item {
+        padding: 0.5rem;
+        background-color: rgb(18, 16, 16);
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: rgba(229, 225, 225, 0.05);
+        }
+
+        &:nth-child(n) {
+            border-bottom: 0.01rem solid gray;
+            border-left: 0.01rem solid gray;
+            border-top: 0.01rem solid gray;
+            /* border-top-left-radius: 0.3rem;
+            border-bottom-left-radius: 0.3rem; */
+        }
+
+        &:nth-child(1) {
+            border-top-left-radius: 0.3rem;
+            border-bottom-left-radius: 0.3rem;
+        }
+
+        &:last-child {
+            border-top-right-radius: 0.3rem;
+            border-bottom-right-radius: 0.3rem;
+            border-right: 0.01rem solid gray;
+        }
+
+
+    }
+
+    & .icon {
+        height: auto;
+        width: 1.5rem;
+        stroke: aliceblue;
+    }
+
+    & .active {
+        background-color: rgba(229, 225, 225, 0.05);
+    }
+}
